@@ -1,0 +1,1287 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  position: static;
+}
+
+.wave, .wave1, .wave2, .wave3, .wave4, .wave5, .wave6 {
+  width: 100%;
+  position: relative;
+  padding-top: 20%;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #8BC9C0;
+  width: 100%;
+  height: 140px;
+  display: inline-block;
+}
+
+.menu-icon img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Staatliches', cursive;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 50px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.menu li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+
+#homepage {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  height: 750px;
+}
+
+#homepage .content {
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#homepage button {
+  margin-top: 30px;
+  background-color: #857FA0; 
+  border-radius: 20px; 
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  margin: 20px;
+  border: none;
+}
+  
+#homepage button:hover {
+  background: black;
+  color: white;
+  transition: 0.7s;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+}
+
+.head {
+  font-family: 'Staatliches', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  color: black;
+}
+
+#homepage p {
+  padding: 10px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  text-align: start;
+  margin-top: -5%;
+  margin-left: 17%;
+  margin-right: 17%;
+  color: white;
+}
+
+
+
+#moreinfo {
+  background-color: #857FA0;
+  position: static;
+}
+
+.main {
+  display: flex;
+}
+
+.head, .head1 {
+  text-align: center;
+  color: white;
+}
+
+#moreinfo .head {
+  font-family: 'Staatliches', cursive;
+  font-size: 70px;
+}
+
+.head1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  width: 500px;
+  background-color: #737393;
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.cards:hover {
+  box-shadow: 2px 2px 10px white;
+  transition: 0.7s;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  padding: 5px;
+  padding-top: 3%;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}
+
+.description {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+#moreinfo button {
+  margin-top: 30px;
+  background-color: #BABAD7; 
+  border: 1px solid #BABAD7; 
+  padding: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#moreinfo button:hover {
+  background: black;
+  color: white;
+  transition: 0.7s;
+  font-size: 23px;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+
+#gallery {
+  background-color: #A6AE8D;
+  height: 100%;
+  padding-top: 50px;
+  position: static;
+}
+
+#gallery h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+#gallery p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#gallery .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#gallery .row img {
+  width: 30%;
+  height: auto;
+  border-radius: 15px;
+}
+
+#gallery .row:hover img {
+  cursor: pointer;
+
+}
+
+#gallery button {
+  background-color: #898C74;
+  margin-top: 30px;
+  border-radius: 20px; 
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  border: none;
+}
+  
+#gallery button:hover {
+  background: black;
+  color: white;
+  transition: 0.7s;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#reviewspage {
+  background-color: #8BC9C0;
+  padding-top: 50px;
+  position: static;
+}
+
+.above {
+  display: block;
+}
+
+#reviewspage h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+#reviewspage p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#reviewspage .main {
+  display: flex;
+  justify-content: center;
+}
+
+#reviewspage .cards {
+  width: 30%;
+  background-color: #78A8A0;
+  border-radius: 15px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px black;
+}
+
+#reviewspage .image {
+  display: flex;
+  justify-content: center;
+}
+
+#reviewspage .image img {
+  width: 50%;
+  border-radius: 100%;
+  padding-top: 5%;
+}
+
+#reviewspage .title {
+  text-align: center;
+  padding: 5px;
+  padding-top: 3%;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}
+
+#reviewspage .social {
+  text-align: center;
+  padding: 5px;
+  padding-top: 2%;
+  color: white;
+  font-size: 10px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+}
+
+#reviewspage .description {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  color: white;
+  font-size: smaller;
+  padding-bottom: 5%;
+  font-family: 'Comfortaa', cursive;
+}
+
+#reviewspage .description p {
+  font-size: 15px;
+}
+
+#reviewspage .h3, .h4, p {
+  text-align: center;
+}
+
+#reviewspage .title h3 {
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+}
+
+#reviewspage .social h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+
+#reviewspage button {
+  background-color: #78A8A0;
+  margin-top: 30px;
+  border-radius: 20px; 
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  border: none;
+}
+  
+#reviewspage button:hover {
+  background: black;
+  color: white;
+  transition: 0.7s;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.buttreviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#bookingpage {
+  width: 100%;
+  justify-content: center;
+  background-color: #857FA0;
+  padding-top: 50px;
+  position: static;
+}
+
+#bookingpage h1, h2, p {
+  text-align: center;
+  color: white;
+}
+
+#bookingpage h1 {
+  font-size: 90px;
+  font-family: 'Staatliches', cursive;
+}
+
+#bookingpage h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#bookingpage p{
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+#booking-form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.formgroup1, .formgroup2, .formgroup3 {
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: start;
+  color: white;
+}
+
+#bookingpage input[type="text"], input[type="email"], input[type="number"], input[type="time"], input[type="date"], input[type="tel"] {
+  width: 385px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+button[type="submit"] {
+  background-color: #737393;
+  margin-top: 50px;
+  border-radius: 20px; 
+  cursor: pointer;
+  width: 350px;
+  height: 100px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background: black;
+  color: white;
+  transition: 0.7s;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.bookton {
+  justify-content: center ;
+  display: flex;
+}
+
+
+
+#contactpage {
+  background-color: #A6AE8D;
+  position: static;
+}
+
+#contactpage h1, h2 {
+  color: #ffffff;
+}
+
+#contactpage h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 90px;
+  font-family: 'Staatliches', cursive;
+}
+
+#contactpage h2 {
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 35px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.contact-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+#contactpage .map-container {
+  padding-right: 50px;
+}
+
+.map-container .map {
+  width: 600px;
+  height: 500px;
+}
+
+#contactpage .contact-form {
+  width: 50%;
+  padding-left: 50px;
+}
+
+#contactpage input[type="text"], input[type="email"], textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 20px;
+  border: none;
+}
+
+#contactpage button {
+  padding-right: 50px;
+  width: 105%;
+  height: 50px;
+  background-color: #898C74;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 15px;
+  font-size: 15px;
+}
+
+#contactpage button:hover {
+  background-color: black;
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bolder;
+  color: white;
+}
+
+footer {
+  background-color: #8BC9C0;;
+  position: static;
+}
+
+.sm-icons {
+  position: relative;
+  justify-content: right;
+  display: flex;
+}
+
+.icon1, .icon2, .icon3 {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  padding-bottom: 25px;
+  margin-right: 50px;
+  justify-content: end;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+footer p {
+  font-size: 10px;
+  padding-bottom: 25px;
+  text-align: start;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.footertext {
+  position: relative;
+  width: 100%;
+  justify-content: start;
+}
+
+.footertext p {
+  padding-left: 50px;
+  font-size: 90px;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  justify-content: flex-start;
+  position: relative;
+}
+
+@media (min-width: 360px) and (max-width: 1040px) {
+
+  body {
+    position: static;
+  }
+  
+  .wave, .wave1, .wave2, .wave3, .wave4, .wave5, .wave6 {
+    position: relative;
+    margin-top: 70px;
+  }
+  
+  header {
+    background-color: #8BC9C0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    justify-content: start;
+  }
+  
+  .menu {
+    width: 100%;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+  }
+
+  .menu ul .first, .second {
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 50px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  .menu li a:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  
+  #homepage {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+  
+  #homepage .content {
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+  }
+  
+  .b {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  #homepage button {
+    margin-top: 30px;
+    background-color: #857FA0; 
+    border-radius: 15px; 
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    margin: 20px;
+    border: none;
+  }
+    
+  #homepage button:hover {
+    background: black;
+    color: white;
+    transition: 0.7s;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+  }
+  
+  .head {
+    font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    color: black;
+  }
+  
+  #homepage p {
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    text-align: center;
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+  }
+  
+  
+  
+  #moreinfo {
+    background-color: #857FA0;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .head, .head1 {
+    text-align: center;
+    color: white;
+  }
+  
+  #moreinfo .head {
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+  }
+  
+  .head1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    width: 400px;
+    background-color: #737393;
+    border-radius: 15px;
+    margin: 40px;
+  }
+  
+  .cards:hover {
+    box-shadow: 2px 2px 10px white;
+    transition: 0.7s;
+  }
+  
+  .image img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 5px;
+    padding-top: 3%;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 17px;
+  }
+  
+  .description {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  #moreinfo button {
+    margin-top: 30px;
+    background-color: #BABAD7; 
+    border: 1px solid #BABAD7; 
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  #moreinfo button:hover {
+    background: black;
+    color: white;
+    transition: 0.7s;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  
+  
+  #gallery {
+    background-color: #A6AE8D;
+    height: 100%;
+    position: static;
+  }
+  
+  #gallery h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+  }
+  
+  #gallery p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  #gallery .row {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #gallery .row img {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    margin: 15px;
+    
+  }
+  
+  #gallery .row:hover img {
+    cursor: pointer;
+  }
+  
+  #gallery button {
+    background-color: #898C74;
+    margin-top: 30px;
+    border-radius: 15px; 
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    border: none;
+  }
+    
+  #gallery button:hover {
+    background: black;
+    color: white;
+    transition: 0.7s;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #reviewspage {
+    background-color: #8BC9C0;
+    position: static;
+  }
+  
+  .above {
+    display: block;
+  }
+  
+  #reviewspage h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+  }
+  
+  #reviewspage p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  #reviewspage .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #reviewspage .cards {
+    width: 400px;
+    background-color: #78A8A0;
+    border-radius: 15px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  #reviewspage .image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #reviewspage .image img {
+    width: 50%;
+    border-radius: 100%;
+    padding-top: 5%;
+  }
+  
+  #reviewspage .title {
+    text-align: center;
+    padding: 5px;
+    padding-top: 3%;
+    color: white;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  #reviewspage .social {
+    text-align: center;
+    padding: 5px;
+    padding-top: 2%;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+  }
+  
+  #reviewspage .description {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    color: white;
+    font-size: smaller;
+    padding-bottom: 5%;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  #reviewspage .description p {
+    font-size: 15px;
+  }
+  
+  #reviewspage .h3, .h4, p {
+    text-align: center;
+  }
+  
+  #reviewspage .title h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+  }
+  
+  #reviewspage .social h4 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+  }
+  
+  #reviewspage button {
+    background-color: #78A8A0;
+    margin-top: 30px;
+    border-radius: 15px; 
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    border: none;
+  }
+    
+  #reviewspage button:hover {
+    background: black;
+    color: white;
+    transition: 0.7s;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .buttreviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #bookingpage {
+    width: 100%;
+    justify-content: center;
+    background-color: #857FA0;
+    position: static;
+  }
+  
+  #bookingpage h1, h2, p {
+    text-align: center;
+    color: white;
+  }
+  
+  #bookingpage h1 {
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  #bookingpage h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .booktext p{
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  #booking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #bookingpage p{
+    padding-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: start;
+  }
+  
+  .formgroup1, .formgroup2, .formgroup3 {
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: start;
+    color: white;
+  }
+  
+  #bookingpage input[type="text"], input[type="email"], input[type="number"], input[type="time"], input[type="date"], input[type="tel"] {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #737393;
+    margin-top: 50px;
+    border-radius: 15px; 
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background: black;
+    color: white;
+    transition: 0.7s;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .bookton {
+    justify-content: center ;
+    display: flex;
+  }
+  
+  
+  
+  #contactpage {
+    background-color: #A6AE8D;
+  }
+  
+  #contactpage h1, h2 {
+    color: #ffffff;
+  }
+  
+  #contactpage h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  #contactpage h2 {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+    
+  #contactpage .map-container {
+    padding-top: 10%;
+    }
+    
+    .map-container .map {
+      width: 483px;
+      height: 500px;
+    }
+    
+    #contactpage input[type="text"], input[type="email"], textarea {
+      display: block;
+      width: 150%;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-family: 'Comfortaa', cursive;
+      border-radius: 20px;
+      border: none;
+    }
+  
+  #contactpage button {
+    width: 160%;
+    height: 50px;
+    background-color: #898C74;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 15px;
+    font-size: 20px;
+  }
+  
+  #contactpage button:hover {
+    background-color: black;
+    font-size: 15px;
+    transition: 0.5s;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  footer {
+    background-color: #8BC9C0;;
+    position: static;
+  }
+  
+  .sm-icons {
+    position: relative;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .icon1, .icon2, .icon3 {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    padding-bottom: 25px;
+    justify-content: center;
+  }
+  
+  .icon1:hover, .icon2:hover, .icon3:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  footer p {
+    font-size: 10px;
+    padding-bottom: 25px;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .footertext {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .footertext p {
+    padding-left: 50px;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-align: center;
+  }
+}
